@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Renovate preset for Go repositories",
+  "extends": [
+    "github>neatplatform/renovate"
+  ],
+  "packageRules": [
+    {
+      "groupName": "high-frequency modules",
+      "description": "Update high-frequency modules every weekend (Sat-Sun)",
+      "schedule": [ "* * * * 0,6" ],
+      "matchPackageNames": [
+        "github.com/aws/aws-sdk-go"
+      ]
+    },
+    {
+      "groupName": "experimental modules",
+      "description": "Update experimental modules on the 1st day of every month between 00:00-06:59",
+      "schedule": [ "* 0-6 1 * *" ],
+      "matchPackageNames": [
+        "golang.org/x/*"
+      ]
+    }
+  ]
+}

@@ -1,33 +1,38 @@
-# renovate
+# renovate-config
+
+Shareable [Renovate](https://www.renovatebot.com/) configuration presets for all repositories.
+
+This repository provides standardized, opinionated dependency update configurations for different languages and projects,
+which individual repositories can extend and override as needed.
 
 ## Quick Start
 
-For general-purpose repositories:
+**General-purpose**
 
 ```json
 {
   "extends": [
-    "github>neatplatform/renovate"
+    "github>neatplatform/renovate-config"
   ]
 }
 ```
 
-For *Go* repositories:
+**Go**
 
 ```json
 {
   "extends": [
-    "github>neatplatform/renovate:go"
+    "github>neatplatform/renovate-config:go"
   ]
 }
 ```
 
-For *JavaScript* repositories:
+**JavaScript**
 
 ```json
 {
   "extends": [
-    "github>neatplatform/renovate:javascript"
+    "github>neatplatform/renovate-config:javascript"
   ]
 }
 ```

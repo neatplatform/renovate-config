@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Renovate preset for JavaScript repositories",
+  "extends": [
+    "github>neatplatform/renovate"
+  ],
+  "packageRules": [
+    {
+      "groupName": "high-frequency packages",
+      "description": "Update high-frequency packages every weekend (Sat-Sun)",
+      "schedule": [ "* * * * 0,6" ],
+      "matchPackageNames": [
+        "eslint",
+        "jest"
+      ]
+    }
+  ]
+}
