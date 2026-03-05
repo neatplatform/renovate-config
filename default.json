@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default Renovate preset for general-purpose repositories",
+  "extends": [
+    "config:recommended"
+  ],
+  "timezone": "America/Toronto"
+}
