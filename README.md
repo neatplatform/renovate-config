@@ -39,12 +39,16 @@ which individual repositories can extend and override as needed.
 
 ## Resources
 
-  - [Presets](https://docs.renovatebot.com/key-concepts/presets/)
-  - [Shareable Config Presets](https://docs.renovatebot.com/config-presets/)
-    - [Default Presets](https://docs.renovatebot.com/presets-default/)
-    - [Full Config Presets](https://docs.renovatebot.com/presets-config/)
-    - [Schedule Presets](https://docs.renovatebot.com/presets-schedule/)
-    - [Security Presets](https://docs.renovatebot.com/presets-security/)
-  - [Configuration Options](https://docs.renovatebot.com/configuration-options/)
-  - [String Pattern Matching - Regex or Glob](https://docs.renovatebot.com/string-pattern-matching/)
-  - [JSON Schema](https://docs.renovatebot.com/json-schema/)
+  - **Renovate**
+    - [Presets](https://docs.renovatebot.com/key-concepts/presets/)
+    - [Shareable Config Presets](https://docs.renovatebot.com/config-presets/)
+      - [Default Presets](https://docs.renovatebot.com/presets-default/)
+      - [Full Config Presets](https://docs.renovatebot.com/presets-config/)
+      - [Schedule Presets](https://docs.renovatebot.com/presets-schedule/)
+      - [Security Presets](https://docs.renovatebot.com/presets-security/)
+    - [Configuration Options](https://docs.renovatebot.com/configuration-options/)
+    - [String Pattern Matching - Regex or Glob](https://docs.renovatebot.com/string-pattern-matching/)
+    - [JSON Schema](https://docs.renovatebot.com/json-schema/)
+  - **Reusable Workflows**
+    - [Reuse workflows](https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows)
+    - [Reusing workflow configurations](https://docs.github.com/en/actions/reference/workflows-and-actions/reusing-workflow-configurations)
