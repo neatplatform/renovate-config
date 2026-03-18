@@ -7,6 +7,8 @@ which individual repositories can extend and override as needed.
 
 ## Quick Start
 
+### Reuse Config
+
 **General-purpose**
 
 ```json
@@ -35,6 +37,18 @@ which individual repositories can extend and override as needed.
     "github>neatplatform/renovate-config:javascript"
   ]
 }
+```
+
+### Reuse Workflow
+
+```yaml
+name: Renovate
+on: [push]
+
+jobs:
+  call:
+    name: Call
+    uses: neatplatform/renovate-config/.github/workflows/reusable-renovate.yml@main
 ```
 
 ## Resources
